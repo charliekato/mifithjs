@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html manifest="mifith.manifest">
+    <head>
+	<meta HTTP-EQUIV="content-type" CONTENT="text/html;charset=utf8" />
+	<title>M I F I T H</title>
+	<link type="text/css" rel="stylesheet" media="screen" href="/jqtouch/themes/css/jqtouch.css">
+	<link type="text/css" rel="stylesheet" media="screen" href="/ch04/themes/jqt/theme.css">
+	<link type="text/css" rel="stylesheet" media="screen" href="mifith.css">
+	<script src="/jqtouch/src/lib/zepto.min.js"></script>
+	<script src="/jqtouch/src/jqtouch.min.js"></script>
+	<script src="mifith.js"> </script>
+    </head>
+
+    <body>
+	<div id="home">
+	    <div class="toolbar">
+		<h1>Mifith</h1>
+	    </div>
+	    <ul class="edgetoedge">
+		<li class="arrow"><a href="#about">Mifithについて</a></li>
+		<li class="arrow"><a href="#main">Game 開始</a></li>
+	    </ul>
+	</div>
+	<div id="about">
+	    <div class="toolbar">
+		<h1>Mifithについて</h1>
+		<a class="button back" href="#">戻る</a>
+	    </div>
+	    <p> 穴の中に落ちていく人を左右に動かしながら
+	    穴の奥深くまで導きます。</p>
+	    <p> 画面の右側をタップすると右に、左側なら左に
+	    移動します。</p>
+	    <p>壁にぶつからないように左右にうまくよけてね。
+	    </p>
+	    <p>壁にぶつかったらゲームオーバーだよ。</p>
+	</div>
+
+	<div id="main">
+	    
+	    <a class="button back" href="#">戻る</a>
+	    <div id="score">Your Score : 000</div>
+	    <div id="highScore">High Score :  000</div>
+	    <div id="startButton"  onclick="startGame()" >スタート</div>
+	    <div id="gameOver" class="hide">Game Over</div>
+
+	    
+	    <div id="message" ></div>
+
+	    <div id="footer"> </div>
+	    <div id="footer2"> </div>
+	    <div id="footer3"> </div>
+
+	    <!--<canvas id="textCanvas" width="320" height="468" ></canvas> -->
+	</div>
+
+
+
+
+    </body>
+</html>

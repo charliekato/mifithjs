@@ -1,0 +1,85 @@
+
+#footer {
+    position: absolute;
+    top: 550px;
+}
+
+#message {
+    position: absolute;
+    top: 240px;
+    left: 40px;
+    text-align: center;
+}
+
+#content {
+    text-align: center;
+}
+
+#textCanvas {
+    text-align: left;
+}
+
+
+#highScore {
+    position: absolute;
+    top: 420px;
+    left: 258px;
+    font-weight: bold;
+    text-align: right;
+    color: white;
+}
+
+
+#score {
+    position: absolute;
+    top: 52px;
+    left: 118px;
+    font-weight: bold;
+    text-align: right;
+    color: white;
+}
+
+
+
+#startButton {
+    position: absolute;
+    top: 186px;
+    left: 122px;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: rgba(0,0,0,0.6) 0px -1px 0px;
+    line-height: 50px;
+    border-width: 0 8px 0 8px;
+    -webkit-border-image: url(images/button3.png) 0 8 0 8;
+}
+
+
+#start {
+    position: absolute:
+    top: 5px;
+    left: 300px;
+    height: 90px;
+    font-weight: bold;
+}
+
+#gameOver {
+    -webkit-border-radius: 10px;
+    backgroud-color: rgba(0,0,0,.7);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 80px;
+    left: 60px;
+    line-height: 80px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    top: 120px;
+    width: 200px;
+}
+
+#main div.hide {
+    display: none;
+}
